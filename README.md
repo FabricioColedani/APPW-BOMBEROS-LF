@@ -19,7 +19,6 @@
   Matias Javier Montoya
 
 ## Objetivos generales
-
-  Los objetivos generales de la aplicacion web para bomberos es  crear una base de datos para registrar las llamadas que entran al cuartel de bomberos, ya sean de accidentes o de otras cosas, los clientes de esta aplicación web serán los bomberos voluntarios
+Los objetivos generales de la aplicacion web para bomberos es  crear una base de datos para registrar las llamadas que entran al cuartel de bomberos, ya sean de accidentes o de otras cosas, los clientes de esta aplicación web serán los bomberos voluntarios
 
 ## Objetivos especificos
