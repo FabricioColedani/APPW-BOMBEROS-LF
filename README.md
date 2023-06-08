@@ -12,12 +12,14 @@
   
   Coledani Cesar Fabricio
   
-  Perez Diaz Dillan
+  Perez Dias Dilan
   
   Siccardi Franco
-  
-  Montoya Matias Javier
+
+  Matias Javier Montoya
 
 ## Objetivos generales
+
+  Los objetivos generales de la aplicacion web para bomberos es  crear una base de datos para registrar las llamadas que entran al cuartel de bomberos, ya sean de accidentes o de otras cosas, los clientes de esta aplicación web serán los bomberos voluntarios
 
 ## Objetivos especificos
