@@ -3,7 +3,7 @@
  Aplicación web Bomberos La Falda PCIA De Córdoba 
 
 ## ¿De que trata?
-
+ el viejo sanca
  Como proyecto de la institucion "ProA La Falda", se decidio colaborar con los bomberos de la sede La Falda, PCIA Còrdoba para crear una aplicacion web, la cual facilite su organizacion a la hora de realizar una labor
 
 ## Estudiantes que la desarrollan:
