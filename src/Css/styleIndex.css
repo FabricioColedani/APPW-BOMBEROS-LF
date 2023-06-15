@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 /*---------------------------------Index-------------------------------------*/
-.body-index {
+body {
   margin: 0;
   padding: 0;
 }
 
 header {
+    font-family: 'Courier New', Courier, monospace;
     background-color: white;
     height: 100px;
     display: flex;
@@ -37,6 +38,7 @@ header button {
 
 .divp {
     font-size: 18px;
+    font-family: sans-serif
 }
 
 /*---------------------------------footer-------------------------------------*/
