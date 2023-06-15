@@ -30,3 +30,8 @@
 ## ¿Por que se realiza?
  
  El por que de la aplicacion web se divide en varias causas. Sin embargo, hay una principal; El metodo de registro de llamadas que utilizan actualmente los bomberos voluntarios es obsoleto e ineficiente, ya que escriben los registros de llamadas en un cuaderno, y es muy facil que no se registren datos o haya confuciones.
+
+## Diseño de DB DER
+
+ https://lucid.app/lucidchart/d4613439-df3b-4c5b-b1c4-659f96ed0fea/edit?viewport_loc=205%2C168%2C1423%2C697%2C0_0&invitationId=inv_5a098e56-8a5d-4c4e-a593-c63de54e3c5d
+ 
