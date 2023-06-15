@@ -9,3 +9,7 @@ function newNovedades(){
         alert("Evento creado exitosamente");     
     }
 }
+function eventCreate(){
+    var commentTitleVar = document.getElementById("commentTitle")
+
+}
