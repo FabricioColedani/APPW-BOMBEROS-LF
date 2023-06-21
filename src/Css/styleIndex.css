@@ -18,7 +18,7 @@ header {
 
 .divindex{
     height: 500px;
-    background-color: #fff7d6;
+    background-color: #c5c5c5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,6 +48,11 @@ nav {
   background: #000000;
 }
 
+.navlogin {
+	margin: 10%;
+
+}
+
 .link-3 {
   transition: 0.4s;
   color: #ffffff;
@@ -55,11 +60,6 @@ nav {
   text-decoration: none;
   padding: 0 10px;
   margin: 0 10px;
-}
-.link-3:hover {
-  background-color: #e5ff00;
-  color: #000000;
-  padding: 24px 10px;
 }
 
 .buttonpage {
@@ -297,7 +297,7 @@ nav {
 	height: 420px;
 	background: rgb(0, 13, 23);
 	color: #fff;
-	top: 50%;
+	top: 65%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -305,14 +305,14 @@ nav {
 	padding: 70px 30px;
 	border-radius: 7px;
   }
-  .imglogin{
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	position: absolute;
-	top: -50%;
-	margin-top: 45%;
-	margin-left: 30%;
+  .imglogin {
+    width: 105px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    margin-top: 47%;
+    margin-left: 25%;
   }
   .form-box h2{
 	margin: 0;
