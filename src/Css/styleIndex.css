@@ -61,6 +61,25 @@ nav {
   color: #000000;
   padding: 24px 10px;
 }
+
+.buttonpage {
+	transition: 0,4s;
+	background-color: #e5ff00;
+  	color: #000000;
+  	padding: 24px 10px;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0 10px;
+	margin: 0 10px;
+  }
+
+.link-3:hover {
+	transition: 0,4s;
+	background-color: #e5ff00;
+	color: #000000;
+	padding: 24px 10px;
+  }
+
 /*---------------------------------footer-------------------------------------*/
 
 .footer-distributed{ 
