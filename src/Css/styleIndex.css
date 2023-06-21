@@ -8,7 +8,7 @@ body {
 
 header {
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightgray;
+    background-color: rgb(161, 1, 1);
     height: 100px;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ header {
 
 .divindex{
     height: 500px;
-    background-color: white;
+    background-color: #fff7d6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,14 +38,14 @@ header {
 
 /*---------------------------------NAV-------------------------------------*/
 nav {
-  margin-top: 40px;
+  margin-top: 5px;
   padding: 24px;
   text-align: center;
   font-family :Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 #nav-3 {
-  background: #700000;
+  background: #000000;
 }
 
 .link-3 {
