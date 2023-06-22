@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades Disponibles</title>
+    <link rel="stylesheet" href="Css/style1.css">
+    <script src="/src/Js/app.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="nav-3">
+          <a class="link-3" href="../index.html">Home</a>
+          <a class="link-3" href="./login.html">Login</a>
+          <a class="link-3" href="./logs.html">Registros</a>
+          <a class="buttonpage" href="./profile.html">Historial</a>
+        </nav>
+    </header>
+    <!-- Tabla de inventario-->
+    <table>
+        <tr>
+            <th>id_Unidad</th>
+            <th>Nombre Unidad</th>
+            <th>Estado</th>
+        </tr>
+    </table>
+    <form
+    class="modal fade"
+    id="form"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Añadir Unidad</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <p>Nombre de la Unidad</p>
+          <input type="text" class="form-control" name="" id="nombre_unidad" />
+          <div id="msg"></div>
+          <br />
+          <p>id_Unidad</p>
+          <input type="date" class="form-control" name="" id="id_unidad" />
+          <br />
+          <p>Estado</p>
+          <select name="Estado" id="status">
+            <option value="disponible">Disponible</option>
+            <option value="no-disponible">No Disponible</option>
+          </select>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="submit" id="add" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
