@@ -3,8 +3,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:#191919;
+  background-color: #191919;
 }
+
+.body2 {
+	margin: 0;
+	padding: 0;
+	background-color: #c5c5c5;
+  }
 
 header {
     font-family: 'Courier New', Courier, monospace;
@@ -306,7 +312,8 @@ nav {
     padding: 70px 30px;
     border-radius: 7px;
 }
-  
+
+
   .imglogin {
     width: 105px;
     height: 120px;
@@ -367,3 +374,15 @@ nav {
 	  50% {transform: translateX(-4px);}
 	  75% {transform: translateX(4px);}
   }  
+
+/*---------------------------------------------------inventory----------------*/
+
+
+lable {
+    font-weight: bold;
+}
+
+
+button {
+    margin-bottom: 10px;
+}
