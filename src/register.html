@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bomberos - Login</title>
+    <title>Bomberos - Registrarse</title>
     <link rel="shortcut icon" href="img\Logo Bomberos La Falda.jpg" type="image/x-icon">
     <link rel="stylesheet" href="Css/styleIndex.css">
     <script src="/src/Js/app.js"></script>
@@ -16,32 +16,36 @@
     <a name="#nav-login"></a>
     <nav id="navlogin">
       <a class="link-3" href="../index.html">Home</a>
-      <a class="buttonpage" href="#nav-login">Login</a>
+      <a class="link-3" href="#nav-login">Login</a>
       <a class="link-3" href="./logs.html">Registros</a>
       <a class="link-3" href="./profile.html">Historial</a>
-      <a class="link-3" href="./register.html">Registrarse</a>
+      <a class="buttonpage" href="./register.html">Registrarse</a>
     </nav>
   
 
     <section>
-        <img src="./img/RegisterBack.jpg" class="background-login" alt="Fondo">
+        <img src="./img/NoticiaFoto.jpg" class="background-login" alt="Fondo">
         <section class="form-box"> <!--login-->
             <div >
               
                 <img class="imglogin" src="./img/Logo Bomberos .png" alt="">
                 <form action="ingresar" class="form-container">
-                 <h2>Ingresar</h2>
+                 <h2>Registrarse</h2>
                     <div class="input-form">
                         <label for="mail">Email</label>
                         <input  type="email" placeholder="Email" >
 
+                        <label for="number">D.N.I</label>
+                        <input type="number"placeholder="D.N.I sin puntos">
+
                         <label for="password">Contraseña</label>
                         <input type="password"placeholder="Password">
+
+                        <label for="password">Confirmar Contraseña</label>
+                        <input type="password"placeholder="Confirm Password">
                     
                         <input type="submit">
-    
-                        <a href="">Olvide mi contraseña</a> <br> <!--hacer animacion que extienda inputs necesarios para recuperar contraseña-->
-                        <a href="./register.html">Registrarse</a> <!--hacer animacion que extienda inputs necesarios para crear cuenta-->
+
                     </div>
                 </form>
             </div>

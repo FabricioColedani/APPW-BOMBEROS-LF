@@ -295,7 +295,7 @@ nav {
   }
   .form-box {
     width: 400px;
-    height: 420px;
+    height: 495px;
     background: rgb(0, 13, 23);
     color: #fff;
     top: 65%;
@@ -313,7 +313,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: -50%;
-    margin-top: 37%;
+    margin-top: 47%;
     margin-left: 29%;
 }
 
@@ -332,6 +332,7 @@ nav {
 	width: 100%;
 	margin-bottom: 20px;
   }
+  .form-box input[type="number"],
   .form-box input[type="email"],
   .form-box input[type="password"]{
 	border: none;
