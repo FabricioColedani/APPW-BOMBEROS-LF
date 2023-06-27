@@ -299,28 +299,28 @@ nav {
 	margin-top: 65%;
 	border-radius: 7px;
   }
-  .form-box {
-    width: 400px;
-    height: 495px;
-    background: rgb(0, 13, 23);
-    color: #fff;
-    top: 65%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-    border-radius: 7px;
+.form-box {
+		width: 400px;
+		height: 565px;
+		background: rgb(0, 13, 23);
+		color: #fff;
+		top: 65%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		padding: 70px 30px;
+		border-radius: 7px;
 }
 
 
-  .imglogin {
+.imglogin {
     width: 105px;
     height: 120px;
     border-radius: 50%;
     position: absolute;
     top: -50%;
-    margin-top: 47%;
+    margin-top: 56%;
     margin-left: 29%;
 }
 
@@ -378,21 +378,20 @@ nav {
   }  
 
   .register-button {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 	height: 50px;
-	background-color: skyblue;
-	color: #fff;
-	font-size: 18px;
-	font-weight: bold;
-	border: none;
-	border-radius: 25px;
-	padding: 0 20px;
-	position: relative;
-	overflow: hidden;
-	transition: background-color 0.3s ease;
+	background-color: #003146;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
   }
   
   .register-button:hover {
@@ -452,13 +451,3 @@ nav {
   
 
 /*---------------------------------------------------inventory----------------*/
-
-
-lable {
-    font-weight: bold;
-}
-
-
-button {
-    margin-bottom: 10px;
-}
