@@ -36,3 +36,33 @@
  https://lucid.app/lucidchart/d4613439-df3b-4c5b-b1c4-659f96ed0fea/edit?viewport_loc=-319%2C263%2C2378%2C1166%2C0_0&invitationId=inv_5a098e56-8a5d-4c4e-a593-c63de54e3c5d 
 
  https://lucid.app/lucidchart/25c88daf-a3f2-48ef-aa19-538b57379352/edit?viewport_loc=478%2C470%2C1335%2C654%2C0_0&invitationId=inv_2c010850-fb47-4e7f-8e43-39310838a151
+
+## ¿Que hay en este repositorio?
+
+  En este repositorio se encuentra el arhivo index.html, el cual es la pagina principal del proyecto. Tambien se encuentra la carpeta src, la cual contiene: 
+    
+    -La carpeta Css
+      
+      -El archivo style.css, que contiene el estilo de las paginas
+    
+    -La carpeta Js
+
+      -El archivo app.js, que contiene el codigo logico de la pagina diseñado para el frontend
+
+    -La carpeta img
+
+      - Esta carpeta contiene archivos jpg utilizados para la decoracion de la pagina
+    
+    -Archivo inventario.html, el cual es una pagina dedicada al inventario de los bomberos, donde se  pueden añadir y quitar equipos del trabajo de los bomberos
+
+    -Archivo login.html, en el cual los usuarios registrados pueden iniciar sesion
+
+    -Archivo logs.html, que contiene el registro de siniestros de los bomberos, donde se pueden añadir y quitar de la base de datos estos registros
+
+    -Archivo profile.html, el cual es una pagina del historial registrado del usuario
+
+    -Archivo register.html, el cual esta dedicado para registrarse como usuario para asi poder iniciar sesion
+
+## Informacion necesaria
+
+  Esta aplicacion web fue diseñada para el uso unico y exlusivo de los bomberos voluntarios de la sede La Falda y no para personas que no pertenezcan a esta, por ende, no se recomienda su uso a personas que no formen parte del cuartel.
