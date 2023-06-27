@@ -9,7 +9,7 @@ body {
 .body2 {
 	margin: 0;
 	padding: 0;
-	background-color: #c5c5c5;
+	background-color: #ffffff;
   }
 
 header {
@@ -24,7 +24,7 @@ header {
 
 .divindex{
     height: 500px;
-    background-color: #c5c5c5;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,9 +339,11 @@ nav {
 	width: 100%;
 	margin-bottom: 20px;
   }
+
   .form-box input[type="number"],
   .form-box input[type="email"],
-  .form-box input[type="password"]{
+  .form-box input[type="password"],
+  .form-box input[type="text"]{
 	border: none;
 	border-bottom: 1px white;
 	background: white;
