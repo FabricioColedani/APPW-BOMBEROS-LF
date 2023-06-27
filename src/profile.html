@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bomberos - Registros</title>
+    <title>Bomberos - Historial de Siniestro</title>
     <link rel="shortcut icon" href="img\Logo Bomberos La Falda.jpg" type="image/x-icon">
     <link rel="stylesheet" href="Css/styleIndex.css">
     <script src="Js/app.js"></script>
@@ -24,11 +24,58 @@
     </header>
     
     <div class="divindex">
-        <p class="divp">Aplicacion Web Bomberos La Falda</p>
-
-        <img class="divimg" src="./img/Logo Bomberos .png" alt="Imagen" />
-       
-        <p class="divp">Historial</p>
+        <p class="divp">Aplicacion Web Bomberos La Falda | Historial de Siniestro</p>
+        <style>
+          table {
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          th, td {
+            text-align: left;
+            padding: 8px;
+          }
+          
+          th {
+            background-color: #c2c2c269;
+          }
+          
+          tr:nth-child(even) {
+            background-color: rgb(182, 59, 59);
+          }
+        </style>
+      </head>
+      <body>
+        <table>
+          <tr>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Ubicación </th>
+            <th>Siniestro </th>
+            <th>Decripcion</th>
+          </tr>
+          <tr>
+            <th>Fecha</th>
+            <th>00:24 am</th>
+            <th>Ubicación</th>
+            <th>Siniestro</th>
+            <th>Tiroteo en barrio sta teresa</th>
+          </tr>
+          <tr>
+            <th>Fecha</th>
+            <th>12:36 am</th>
+            <th>Ubicación</th>
+            <th>Siniestro</th>
+            <th>Incendio en hogar</th>
+          </tr>
+          <tr>
+            <th>Fecha</th>
+            <th>23:00 am</th>
+            <th>Ubicación</th>
+            <th>Siniestro</th>
+            <th>Accidente automovilistico en monte carlos</th>
+          </tr>
+        </table>
     </div>
     
     <footer class="footer-distributed">
