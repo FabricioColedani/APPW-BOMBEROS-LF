@@ -33,6 +33,6 @@
 
 ## Diseño de DB 
 
- https://lucid.app/lucidchart/d4613439-df3b-4c5b-b1c4-659f96ed0fea/edit?viewport_loc=205%2C168%2C1423%2C697%2C0_0&invitationId=inv_5a098e56-8a5d-4c4e-a593-c63de54e3c5d
+ https://lucid.app/lucidchart/d4613439-df3b-4c5b-b1c4-659f96ed0fea/edit?viewport_loc=-319%2C263%2C2378%2C1166%2C0_0&invitationId=inv_5a098e56-8a5d-4c4e-a593-c63de54e3c5d 
 
- 
+ https://lucid.app/lucidchart/25c88daf-a3f2-48ef-aa19-538b57379352/edit?viewport_loc=478%2C470%2C1335%2C654%2C0_0&invitationId=inv_2c010850-fb47-4e7f-8e43-39310838a151
