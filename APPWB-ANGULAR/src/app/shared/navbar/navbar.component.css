@@ -1,0 +1,42 @@
+nav {
+    margin-top: 5px;
+    padding: 24px;
+    text-align: center;
+    font-family :Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  #nav-3 {
+    background: #000000;
+  }
+  
+  .navlogin {
+      background-color: rgb(0, 13, 23);
+      margin: 10%;
+  
+  }
+  
+  .link-3 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  
+  .buttonpage {
+      background-color: #e5ff00;
+        color: #000000;
+        padding: 24px 10px;
+      font-size: 20px;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  
+  .link-3:hover {
+      transition: 0,4s;
+      background-color: #e5ff00;
+      color: #000000;
+      padding: 24px 10px;
+    }
+  
