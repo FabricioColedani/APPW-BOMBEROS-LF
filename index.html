@@ -8,9 +8,31 @@
     <link rel="shortcut icon" href="src\img\Logo Bomberos La Falda.jpg" type="image/x-icon">
     <link rel="stylesheet" href="src/Css/styleIndex.css">
     <script src="Js/app.js"></script>
+    <style>
+    .container {
+      display: flex;
+      align-items: center;
+    }
+        
+    .text {
+      flex: 0 0 50%;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .image {
+      flex: 0 0 50%;
+      text-align: center;
+      margin-left: 20px;
+
+  
+    }
+    </style>
 </head>
 
-<body>
+<body class="body2">
     
     <header>
       <a name="#index"></a>
@@ -24,11 +46,19 @@
       </nav>
     </header>
     
-    <div class="divindex">
-      <p class="divp">Aplicación Web Bomberos La Falda</p>
-      <img class="divimg" src="./src/img/Logo Bomberos .png" alt="Imagen" />
-      <p class="divp">Bomberos Voluntarios de La Falda Libertador Gral. San Martín</p> 
-    </div>
+      <div class="container ">
+        <div class="image">
+          <br>
+          <img src="./src/img/loginback.png" alt="Imagen">
+          <br>
+        </div>
+        <br>
+        <div class="text">
+          <p>¡Bienvenidos a la página web de los Bomberos Voluntarios de La Falda! Estamos aquí <br> para proteger y servir a nuestra comunidad las 24 horas del día. Contamos con un equipo <br> capacitado y equipamiento de vanguardia. Nuestra misión es brindar <br> servicios de emergencia y promover la prevención. </p>
+          <br>
+        </div>
+
+      </div>  
     
     <footer class="footer-distributed">
         <div class="footer-left">
