@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index/index.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { InventarioComponent } from './inventario/inventario.component';
 
 
 
@@ -10,7 +11,8 @@ import { ProfileComponent } from './profile/profile.component';
   declarations: [
     IndexComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    InventarioComponent
   ],
   imports: [
     CommonModule
