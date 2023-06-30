@@ -1,0 +1,455 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+/*---------------------------------Index-------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #191919;
+}
+
+.body2 {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+  }
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(161, 1, 1);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divindex{
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.divp {
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+/*---------------------------------NAV-------------------------------------*/
+nav {
+  margin-top: 5px;
+  padding: 24px;
+  text-align: center;
+  font-family :Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-3 {
+  background: #000000;
+}
+
+.navlogin {
+	background-color: rgb(0, 13, 23);
+	margin: 10%;
+
+}
+
+.link-3 {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.buttonpage {
+	background-color: #e5ff00;
+  	color: #000000;
+  	padding: 24px 10px;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 10px;
+  }
+
+.link-3:hover {
+	transition: 0,4s;
+	background-color: #e5ff00;
+	color: #000000;
+	padding: 24px 10px;
+  }
+
+/*---------------------------------footer-------------------------------------*/
+
+.footer-distributed{ 
+	background: rgb(0, 0, 0);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left; 
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 1px;
+    font-family: Open Sans;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer Derecho */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* Logo */
+
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color: #7a0000;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Centro */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #000000;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+/*------------------------------------Login*------------------------------*/
+.nav-bar{
+	margin-right: 75%;
+	outline: none;
+	width: 35px;
+  }
+  .header-text{
+	margin-top: 5px;
+	right: 5%;
+  }
+  .background-login{
+	margin: 10;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+  }
+  .form-box2{
+	width: 380px;
+	height: 420px;
+	background: rgb(0, 13, 23);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -200%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 65%;
+	border-radius: 7px;
+  }
+.form-box {
+		width: 400px;
+		height: 565px;
+		background: rgb(0, 13, 23);
+		color: #fff;
+		top: 65%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		box-sizing: border-box;
+		padding: 70px 30px;
+		border-radius: 7px;
+}
+
+
+.imglogin {
+    width: 105px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    margin-top: 56%;
+    margin-left: 29%;
+}
+
+  .form-box h2{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: center;
+  }
+  .form-box label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+  }
+  .form-box input{  
+	width: 100%;
+	margin-bottom: 20px;
+  }
+
+  .form-box input[type="number"],
+  .form-box input[type="email"],
+  .form-box input[type="password"],
+  .form-box input[type="text"]{
+	border: none;
+	border-bottom: 1px white;
+	background: white;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+	border-radius: 15px;
+  }
+  .form-box2 input[type="submit"],
+  .form-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 100%;
+	background: skyblue;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+  }
+  .form-box a {
+	font-size: 12px;
+  }
+  .form-box input[type="email"]:invalid
+  .form-box input[type="password"]:invalid {
+	  animation: shake .3s;
+  }
+  @keyframes shake{
+	  25% {transform: translateX(4px);}
+	  50% {transform: translateX(-4px);}
+	  75% {transform: translateX(4px);}
+  }  
+
+  .register-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	height: 50px;
+	background-color: #003146;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+	background-color: #1898c2;
+  }
+  
+  .register-button:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+	transform: scale(0);
+	transition: transform 0.3s ease;
+  }
+  
+  .register-button:hover:after {
+	transform: scale(2);
+  }
+  
+  .register-button .icon {
+	margin-left: 10px;
+	font-size: 24px;
+	transition: transform 0.3s ease;
+  }
+  
+  .register-button:hover .icon {
+	transform: rotate(45deg);
+  }
+  
+  .register-button .button-text {
+	position: relative;
+  }
+  
+  .register-button .button-text:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.3s ease;
+  }
+  
+  .register-button:hover .button-text:before {
+	transform: scaleX(1);
+  }
+  
+  
+  
+  
+
+/*---------------------------------------------------inventory----------------*/
