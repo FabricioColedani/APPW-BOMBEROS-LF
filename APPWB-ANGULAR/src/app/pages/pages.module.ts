@@ -6,6 +6,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { InventarioComponent } from './inventario/inventario.component';
 import { RegisterComponent } from './register/register.component';
 import { LogsComponent } from './logs/logs.component';
+import { TutorialComponent } from './tutorial/tutorial.component';
 
 
 
@@ -16,7 +17,8 @@ import { LogsComponent } from './logs/logs.component';
     ProfileComponent,
     InventarioComponent,
     RegisterComponent,
-    LogsComponent
+    LogsComponent,
+    TutorialComponent
   ],
   imports: [
     CommonModule
@@ -27,7 +29,8 @@ import { LogsComponent } from './logs/logs.component';
     ProfileComponent,
     InventarioComponent,
     RegisterComponent,
-    LogsComponent
+    LogsComponent,
+    TutorialComponent
   ]
 
 })
