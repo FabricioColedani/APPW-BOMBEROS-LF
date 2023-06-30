@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="img\Logo Bomberos La Falda.jpg" type="image/x-icon">
     <link rel="stylesheet" href="Css/styleIndex.css">
     <script src="Js/app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,14 +24,44 @@
         <a class="link-3" href="./inventario.html">Inventario</a>
       </nav>
     </header>
-    
-    <div class="divindex">
-       <p class="divp">Aplicacion Web Bomberos La Falda</p>
-
-        <img class="divimg" src="./img/Logo Bomberos .png" alt="Imagen" />
-        
-        <p class="divp">Registros</p>
+    <br><br>
+    <form class="row g-3">
+      <div class="col-md-4">
+        <label for="validationDefault01" class="form-label">Ingresar Fecha</label>
+        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Ingresar Horario</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault02" class="form-label">Ingresar Ubicacion</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+      <br>
+    <div class="row"></div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Ingresar Siniestro</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">Ingresar Descripcion</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+     
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
     </div>
+    </form>
 
     <footer class="footer-distributed">
         <div class="footer-left">
