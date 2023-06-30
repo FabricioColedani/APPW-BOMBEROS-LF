@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { InventarioComponent } from './inventario/inventario.component';
 import { RegisterComponent } from './register/register.component';
+import { LogsComponent } from './logs/logs.component';
 
 
 
@@ -14,7 +15,8 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     ProfileComponent,
     InventarioComponent,
-    RegisterComponent
+    RegisterComponent,
+    LogsComponent
   ],
   imports: [
     CommonModule
