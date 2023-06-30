@@ -20,6 +20,15 @@ import { LogsComponent } from './logs/logs.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    IndexComponent,
+    LoginComponent,
+    ProfileComponent,
+    InventarioComponent,
+    RegisterComponent,
+    LogsComponent
   ]
+
 })
 export class PagesModule { }
