@@ -1,55 +1,22 @@
-<p>inventario works!</p>
-<div class="container">
-    <div onload="onload()">
-      <p>AÑADIR UNIDAD</p>
-      <div class="row">
-          <div class="col-sm-5 col-xs-12">
-              <div class="col-md-8">
-                <label for="validationServerUsername" class="form-label"></label>
-                  <label for="validationServer03" class="form-label">Ingrese aqui la unidad</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                <div id="validationServer03Feedback" class="invalid-feedback">
-                  Ingresar el nombre
-                </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <label for="validationServer03" class="form-label">Ingrese el ID de la unidad</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                <div id="validationServer03Feedback" class="invalid-feedback">
-                </div>
-              </div>
-      </div>
-      <br><br>
-        <div class="row">      
-              <div class="col-md-4">
-                <label for="validationServer04" class="form-label">State</label>
-                <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
-                  <option selected disabled value="">Disponible</option>
-                  <option>No disponible</option>
-                </select>
-                <div id="validationServer04Feedback" class="invalid-feedback">
-                  Seleccione una opcion
-                </div>
-              </div>
-              <div class="col-2">
-              </div>
-              <div class="col-6">
-                <div class="form-check">
-                  <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
-                  <label class="form-check-label" for="invalidCheck3">
-                    Estas seguro?
-                  </label>
-                  <div id="invalidCheck3Feedback" class="invalid-feedback">
-                    Marca la opcion si lo estas                    
-                  </div>
-                </div>
-        </div>
-        <br>
-          <div class="row">      
-              <div class="col-12">
-                <button class="btn btn-primary" type="submit">Enviar</button>
-              </div>
-          </div>    
-    </div>
+<form style="color: white;">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese la Unidad</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Ingrese ID de Unidad</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <select  class="form-select" aria-label="Default select example">
+      <option selected>Estado</option>
+      <option value="1">Disponible</option>
+      <option value="2">No Disponible </option>
+    </select>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Esta Seguro? Si es asi entonces marque</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
