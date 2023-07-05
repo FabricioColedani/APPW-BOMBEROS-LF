@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+  background-color: rgb(116, 60, 60);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+}
+  
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
