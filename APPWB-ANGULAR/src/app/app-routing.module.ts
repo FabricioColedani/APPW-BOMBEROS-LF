@@ -6,6 +6,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LogsComponent } from './pages/logs/logs.component';
 import { InventarioComponent } from './pages/inventario/inventario.component';
+import { TutorialComponent } from './pages/tutorial/tutorial.component';
 
 const routes: Routes = [
   { path: 'home', component: IndexComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'logs', component : LogsComponent },
   { path: 'profile', component : ProfileComponent},
   { path: 'inventario', component : InventarioComponent},
+  { path: 'tutorial', component : TutorialComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
 
 ];
