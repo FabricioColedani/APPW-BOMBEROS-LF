@@ -6,6 +6,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { InventarioComponent } from './inventario/inventario.component';
 import { RegisterComponent } from './register/register.component';
 import { LogsComponent } from './logs/logs.component';
+import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms'
 
 
 
@@ -19,7 +22,10 @@ import { LogsComponent } from './logs/logs.component';
     LogsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     IndexComponent,
